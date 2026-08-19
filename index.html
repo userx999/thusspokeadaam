@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بطولة أقسام مدرسة ابن رشد</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --signature-color: #bdc3c7;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 10px;
+            color: var(--primary-color);
+        }
+
+        .editor-signature {
+            text-align: left;
+            font-size: 0.85rem;
+            color: var(--signature-color);
+            font-style: italic;
+            padding: 5px 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, var(--primary-color), #34495e);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 { margin: 0; font-size: 2.2rem; }
+        .sub-title { opacity: 0.9; margin-top: 10px; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .class-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            border-top: 5px solid var(--accent-color);
+            transition: transform 0.3s ease;
+        }
+
+        .class-card:hover { transform: translateY(-5px); }
+
+        .class-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .lineup-section {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .lineup-title {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+            display: block;
+            font-weight: bold;
+        }
+
+        .player-list { list-style: none; padding: 0; margin: 0; }
+
+        .player-item {
+            background: white;
+            margin-bottom: 8px;
+            padding: 10px;
+            border-radius: 5px;
+            border-right: 4px solid var(--primary-color);
+            font-size: 1rem;
+            color: #333;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.02);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+
+        .badge {
+            background: var(--accent-color);
+            color: white;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="editor-signature">
+    Edit by Adam Ababou
+</div>
+
+<header>
+    <h1>🏆 بطولة مدرسة ابن رشد</h1>
+    <div class="sub-title">دوري أقسام الأولى باكالوريا</div>
+</header>
+
+<div class="container">
+    <div class="class-card">
+        <div class="class-name">1bacse-1 <span class="badge">الأولى باك</span></div>
+        <div class="lineup-section">
+            <span class="lineup-title">تشكيلة الفريق:</span>
+            <ul class="player-list">
+                <li class="adam exi">1. </li>
+                <li class="rayane khoukhou">2. </li>
+                <li class="adam taoutaoua">3. </li>
+                <li class="hassan lkhachani">4. </li>
+                <li class="jibo whd wla 3awdo krkom">5. </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="class-card">
+        <div class="class-name">1bacse-2 <span class="badge">الأولى باك</span></div>
+        <div class="lineup-section">
+            <span class="lineup-title">تشكيلة الفريق:</span>
+            <ul class="player-list"><li class="?">1. </li><li class="player-item">2. </li><li class="?">3. </li><li class="?">4. </li><li class="?">5. </li></ul>
+        </div>
+    </div>
+
+    <div class="class-card">
+        <div class="class-name">1bacse-3 <span class="badge">الأولى باك</span></div>
+        <div class="lineup-section">
+            <span class="lineup-title">تشكيلة الفريق:</span>
+            <ul class="player-list"><li class="jad fny">1. </li><li class="youssef zerhune">2. </li><li class="player-item">3. </li><li class="skyler">4. </li><li class="safae lbrgama (qwada)">5. </li></ul>
+        </div>
+    </div>
+
+    <div class="class-card">
+        <div class="class-name">1bacse-4 <span class="badge">الأولى باك</span></div>
+        <div class="lineup-section">
+            <span class="lineup-title">تشكيلة الفريق:</span>
+            <ul class="player-list"><li class="maert">1. </li><li class="maert">2. </li><li class="maert">3. </li><li class="maert">4. </li><li class="maert">5. </li></ul>
+        </div>
+    </div>
+
+    <div class="class-card">
+        <div class="class-name">1bacse-5 <span class="badge">الأولى باك</span></div>
+        <div class="lineup-section">
+            <span class="lineup-title">تشكيلة الفريق:</span>
+            <ul class="player-list"><li class="player-item">1. </li><li class="player-item">2. </li><li class="player-item">3. </li><li class="player-item">4. </li><li class="player-item">5. </li></ul>
+        </div>
+    </div>
+
+    <div class="class-card">
+        <div class="class-name">1bacse-6 <span class="badge">الأولى باك</span></div>
+        <div class="lineup-section">
+            <span class="lineup-title">تشكيلة الفريق:</span>
+            <ul class="player-list">
+                <li class="player-item">1. Adam Ababou</li>
+                <li class="player-item">2. Othmane Rguibi</li>
+                <li class="player-item">3. Badr Taai</li>
+                <li class="player-item">4. Yassir Mhira</li>
+                <li class="player-item">5. Reda L3azizi</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="class-card">
+        <div class="class-name">1bacse-7 <span class="badge">الأولى باك</span></div>
+        <div class="lineup-section">
+            <span class="lineup-title">تشكيلة الفريق:</span>
+            <ul class="player-list">
+                <li class="player-item">1. Didouh</li>
+                <li class="player-item">2. Anouar (lkniya)</li>
+                <li class="player-item">3. Ilyass Ighidi</li>
+                <li class="player-item">4. Houssam Sem</li>
+                <li class="player-item">5. Rayane Sbiti</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 مدرسة ابن رشد | تنظيم وإعداد آدم عبابو</p>
+</footer>
+
+</body>
+</html>
